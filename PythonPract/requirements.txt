@@ -1,0 +1,4 @@
+pip freeze > requirements.txt
+
+pip install gunicorn
+echo "gunicorn" >> requirements.txt
